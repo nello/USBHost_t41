@@ -26,7 +26,7 @@
 #ifndef __USBDeviceInfo_h_
 #define __USBDeviceInfo_h_
 #include <Arduino.h>
-#include <USBHost_t36.h>
+#include <USBHost_t41.h>
 
 
 class USBDeviceInfo : public USBDriver {

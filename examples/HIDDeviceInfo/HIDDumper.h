@@ -1,7 +1,7 @@
 #ifndef __HIDDumper_h_
 #define __HIDDumper_h_
 #include <Arduino.h>
-#include <USBHost_t36.h>
+#include <USBHost_t41.h>
 
 class HIDDumpController : public USBHIDInput {
 public:

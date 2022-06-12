@@ -19,7 +19,7 @@
 //=============================================================================
 //#define USE_ST77XX // define this if you wish to use one of these displays.
 
-#include "USBHost_t36.h"
+#include "USBHost_t41.h"
 
 #ifdef USE_ST77XX
 #include <ST7735_t3.h>

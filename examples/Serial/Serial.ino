@@ -2,7 +2,7 @@
 //
 // This example is in the public domain
 
-#include "USBHost_t36.h"
+#include "USBHost_t41.h"
 #define USBBAUD 115200
 uint32_t baud = USBBAUD;
 uint32_t format = USBHOST_SERIAL_8N1;

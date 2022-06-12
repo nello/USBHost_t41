@@ -22,7 +22,7 @@
  */
 
 #include <Arduino.h>
-#include "USBHost_t36.h"  // Read this header first for key info
+#include "USBHost_t41.h"  // Read this header first for key info
 
 
 // USB devices are managed from this file.
@@ -329,8 +329,11 @@ void USBHost::claim_drivers(Device_t *dev)
 	USBDriver *driver, *prev=NULL;
 
 	// first check if any driver wishes to claim the entire device
+	print_driverlist("do available drivers want device?: ", available_drivers);
 	for (driver=available_drivers; driver != NULL; driver = driver->next) {
-		if (driver->device != NULL) continue;
+		if (driver->device != NULL)
+		    continue;
+
 		if (driver->claim(dev, 0, enumbuf + 9, enumlen - 9)) {
 			if (prev) {
 				prev->next = driver->next;
@@ -367,8 +370,11 @@ void USBHost::claim_drivers(Device_t *dev)
 		if (desctype == 4 && desclen == 9) {
 			// found an interface, ask available drivers if they want it
 			prev = NULL;
+			print_driverlist("do available drivers want interface?: ", available_drivers);
 			for (driver=available_drivers; driver != NULL; driver = driver->next) {
-				if (driver->device != NULL) continue;
+				if (driver->device != NULL)
+				    continue;
+
 				// TODO: should parse ahead and give claim()
 				// an accurate length.  (end - p) is the rest
 				// of ALL descriptors, likely more interfaces

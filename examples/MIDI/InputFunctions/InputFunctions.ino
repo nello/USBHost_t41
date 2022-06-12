@@ -15,7 +15,7 @@
    This example code is in the public domain.
 */
 
-#include <USBHost_t36.h>
+#include <USBHost_t41.h>
 
 USBHost myusb;
 USBHub hub1(myusb);

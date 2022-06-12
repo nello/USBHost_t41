@@ -24,7 +24,7 @@
 // extracts from calls to claim... 
 
 #include <Arduino.h>
-#include <USBHost_t36.h>
+#include <USBHost_t41.h>
 #include "USBDeviceInfo.h"
 
 extern void dump_hexbytes(const void *ptr, uint32_t len);

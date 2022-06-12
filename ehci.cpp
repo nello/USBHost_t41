@@ -22,7 +22,7 @@
  */
 
 #include <Arduino.h>
-#include "USBHost_t36.h" // Read this header first for key info
+#include "USBHost_t41.h" // Read this header first for key info
 
 // All USB EHCI controller hardware access is done from this file's code.
 // Hardware services are made available to the rest of this library by

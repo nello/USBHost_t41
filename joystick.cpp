@@ -22,7 +22,7 @@
  */
 
 #include <Arduino.h>
-#include "USBHost_t36.h"  // Read this header first for key info
+#include "USBHost_t41.h"  // Read this header first for key info
 
 #define print   USBHost::print_
 #define println USBHost::println_
@@ -526,11 +526,12 @@ bool JoystickController::hid_process_in_data(const Transfer_t *transfer)
 {
 	uint8_t *pb = (uint8_t *)transfer->buffer;
 	if (!transfer->buffer || *pb == 1) return false; // don't do report 1
-	Serial.printf("hid_process_in_data %x %u:", transfer->buffer, transfer->length);
+
+	//Serial.printf("hid_process_in_data %x %u:", transfer->buffer, transfer->length);
 	uint8_t cnt = transfer->length;
 	if (cnt > 16) cnt = 16;
-	while(cnt--) Serial.printf(" %02x", *pb++);
-	Serial.printf("\n");
+	//while(cnt--) Serial.printf(" %02x", *pb++);
+	//Serial.printf("\n");
 
 	return false;
 }

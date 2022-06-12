@@ -22,7 +22,7 @@
  */
 
 #include <Arduino.h>
-#include "USBHost_t36.h"  // Read this header first for key info
+#include "USBHost_t41.h"  // Read this header first for key info
 
 
 void MouseController::init()

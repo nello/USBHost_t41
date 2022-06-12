@@ -17,7 +17,7 @@
 */
 
 #include <MIDI.h>        // access to serial (5 pin DIN) MIDI
-#include <USBHost_t36.h> // access to USB MIDI devices (plugged into 2nd USB port)
+#include <USBHost_t41.h> // access to USB MIDI devices (plugged into 2nd USB port)
 
 // Create the Serial MIDI ports
 MIDI_CREATE_INSTANCE(HardwareSerial, Serial1, MIDI1);

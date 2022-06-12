@@ -22,7 +22,7 @@
  */
 
 #include <Arduino.h>
-#include "USBHost_t36.h"  // Read this header first for key info
+#include "USBHost_t41.h"  // Read this header first for key info
 
 
 // Memory allocation for Device_t, Pipe_t and Transfer_t structures.

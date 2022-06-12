@@ -2,7 +2,7 @@
 //
 // This example is in the public domain
 
-#include "USBHost_t36.h"
+#include "USBHost_t41.h"
 int mousex, mousey;
 
 USBHost myusb;

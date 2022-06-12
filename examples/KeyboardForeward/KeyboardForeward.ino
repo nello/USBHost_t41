@@ -2,7 +2,7 @@
 //
 // This example is in the public domain
 
-#include "USBHost_t36.h"
+#include "USBHost_t41.h"
 
 // You can have this one only output to the USB type Keyboard and
 // not show the keyboard data on Serial...

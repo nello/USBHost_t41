@@ -3,7 +3,7 @@ Pacman Game for Arduino Due with tft ILI9341 and VGA output support
 
 Pacman Game on Arduino Due with ILI9341 and VGA support (available 2 outputs at the same time), playable with keypad, 5 sample levels, VGA output is 240x320, source code avaliable on Github, Licensed under MIT License.
 
-Original Pacman sketch modified to use a Teensy 3.6/T4 with ILI9341_t3n and USBHost_t36 libraries.  Intended as demo for the incorporating BT or Serial gamepads such as the PS3 and PS4 into a user application.
+Original Pacman sketch modified to use a Teensy 3.6/T4 with ILI9341_t3n and USBHost_t41 libraries.  Intended as demo for the incorporating BT or Serial gamepads such as the PS3 and PS4 into a user application.
 
 Originally posted on:
 Arduino Forum:
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=2Hdzr6m4QdU
 /*  MIT license, all text above must be included in any redistribution.       */
 /******************************************************************************/
 /*  Original Pacman sketch modified to use a Teensy 3.6/T4 with ILI9341_t3n   */
-/*  and USBHost_t36 libraries.  Intended as demo for the incorporating BT     */
+/*  and USBHost_t41 libraries.  Intended as demo for the incorporating BT     */
 /*  or Serial gamepads such as the PS3 and PS4 into a user application.       */
 /*  The original version for the Arduino Due and SNES controllers can be      */
 /*  found at                                                                  */

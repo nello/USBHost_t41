@@ -2,7 +2,7 @@
 // 
 // This Simple test sketch is setup to print out HID information about a device
 // The other two tabs are a simple C++ subclass of the USBHIDInput class that is part 
-// of the USBHost_t36 library.  
+// of the USBHost_t41 library.
 //
 // This subclass simply tries to connect to each different HID object and
 // the only thing it does is to try to print out all of the data it receives
@@ -24,7 +24,7 @@
 //
 // This example is in the public domain
 
-#include <USBHost_t36.h>
+#include <USBHost_t41.h>
 #include "HIDDumper.h"
 #include "USBDeviceInfo.h"
 
